@@ -808,7 +808,7 @@ function updatePreviewBar(): void {
         return;
     }
 
-    if (video === null) return;
+    if (!video) return;
 
     const previewBarSegments: PreviewBarSegment[] = [];
 
